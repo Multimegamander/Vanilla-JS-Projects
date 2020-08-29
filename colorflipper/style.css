@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgroundText {
+    width: max-content;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 54px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    border: solid 1px #000000;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
